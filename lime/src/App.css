@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+body{
+  background-color: #3EFF04;
+  color: black;
+  font-family: 'Goblin one', serif;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid black;
+  margin: 0;
+  align-items: center;
+}
+nav div{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Goldman", serif;
+  font-weight: lighter;
+  font-size: small;
+}
+main{
+  font-family: "Goblin one", serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  
+}
+
+main h1{
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+main img{
+  position: absolute;
+  overflow: hidden;
+  right: -130px;
+  top: 220px;
+  width: 100%;
+  transform: scale(1.25);
+  clip-path: inset(50px 0 0 0);
+}
+button{
+  background-color: black;
+  color: white;
+  font-family: 'Goldman', serif;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
